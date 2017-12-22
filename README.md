@@ -1,5 +1,8 @@
 # jest-string-object-serializer
-A jest snapshot serializer for String objects. Made for when you have a `String` object passed to React props that you want to serialize. E.g., `<div className={new String('val')} />` will have a weird snaphsot output by default, which this project fixes.
+A jest snapshot serializer for String objects.
+
+#### Motivation
+Made for when you have a `String` object passed to React props that you want to serialize. E.g., `<div className={new String('val')} />` will have a weird snaphsot output by default, that would be fixed by simply calling `toString()` on the String object. Which is exactly what jest-string-object-serializer does.
 
 #### Usage
 
