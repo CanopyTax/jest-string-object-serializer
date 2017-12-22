@@ -1,0 +1,9 @@
+{
+  "name": "jest-string-object-serializer",
+  "version": "1.0.0",
+  "description": "A jest snapshot serializer for String objects",
+  "main": "lib/serializer.js",
+  "repository": "git@github.com:CanopyTax/jest-string-object-serializer.git",
+  "author": "Joel Denning <joel.denning@canopytax.com>",
+  "license": "Apache-2.0"
+}
